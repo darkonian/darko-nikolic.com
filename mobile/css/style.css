@@ -1,0 +1,362 @@
+/*********************
+VARIABLES
+*********************/
+/*********************
+BREAKPOINTS
+*********************/
+/********************
+TRANSITIONS
+********************/
+body {
+  margin: 0px;
+  background-color: #000;
+  font-family: verdana, helvetica, arial, sans-serif;
+  color: #fff; }
+
+a {
+  color: #fff;
+  text-decoration: none; }
+
+#header {
+  z-index: 10;
+  width: 200%;
+  height: 105px;
+  position: fixed;
+  background-image: url("../media/images/website_header.svg");
+  background-repeat: no-repeat;
+  background-position: -150px 0; }
+  @media (max-width: 37.5em) {
+    #header {
+      background-position: -280px 0; } }
+  @media (min-width: 37.5em) {
+    #header {
+      background-position: -230px 0; } }
+  @media (min-width: 50em) {
+    #header {
+      background-position: -270px 0; } }
+  @media (min-width: 64em) {
+    #header {
+      background-position: -120px 0; } }
+  #header #menu {
+    position: absolute;
+    list-style: none;
+    left: 30%;
+    padding-top: 25px;
+    -moz-transition: all 0.25s linear;
+    -o-transition: all 0.25s linear;
+    -webkit-transition: all 0.25s linear;
+    transition: all 0.25s linear; }
+    #header #menu li {
+      font-size: 70%;
+      display: inline-block;
+      margin-right: 20px; }
+      @media (min-width: 64em) {
+        #header #menu li {
+          font-size: 14px; } }
+      @media (min-width: 64em) {
+        #header #menu li {
+          margin-right: 80px; } }
+      #header #menu li:hover {
+        text-decoration: underline; }
+      #header #menu li.active {
+        text-decoration: underline; }
+    @media (max-width: 37.5em) {
+      #header #menu {
+        left: 18%; } }
+    @media (min-width: 37.5em) {
+      #header #menu {
+        left: 32%; } }
+    @media (min-width: 50em) {
+      #header #menu {
+        left: 30%; } }
+    @media (min-width: 64em) {
+      #header #menu {
+        left: 30%; } }
+    @media screen and (orientation: landscape) {
+      #header #menu {
+        font-size: 105%; } }
+  @media screen and (orientation: landscape) and (max-width: 37.5em) {
+    #header #menu {
+      left: 15%; } }
+  @media screen and (orientation: landscape) and (min-width: 37.5em) {
+    #header #menu {
+      left: 28%; } }
+  @media screen and (orientation: landscape) and (min-width: 50em) {
+    #header #menu {
+      left: 26%; } }
+  @media screen and (orientation: landscape) and (min-width: 64em) {
+    #header #menu {
+      left: 26%; } }
+
+#container {
+  color: white; }
+  #container #mainContent {
+    padding-top: 80px;
+    position: absolute;
+    top: 0px;
+    -moz-transition: all 0.25s linear;
+    -o-transition: all 0.25s linear;
+    -webkit-transition: all 0.25s linear;
+    transition: all 0.25s linear; }
+    @media (max-width: 37.5em) {
+      #container #mainContent {
+        font-size: 14px; } }
+    @media (min-width: 37.5em) {
+      #container #mainContent {
+        font-size: 14px; } }
+    @media (min-width: 64em) {
+      #container #mainContent {
+        font-size: 15px; } }
+    @media (min-width: 64em) {
+      #container #mainContent {
+        width: 80%;
+        padding-left: 10%;
+        padding-right: 10%; } }
+    #container #mainContent #projectsGrid {
+      width: 100%; }
+      #container #mainContent #projectsGrid .projectGridItem {
+        display: inline-block;
+        position: relative;
+        -moz-transition: all 0.25s linear;
+        -o-transition: all 0.25s linear;
+        -webkit-transition: all 0.25s linear;
+        transition: all 0.25s linear; }
+        #container #mainContent #projectsGrid .projectGridItem .overlay {
+          position: absolute;
+          left: 0;
+          right: 0;
+          height: 100%;
+          background-color: #000;
+          opacity: 0;
+          -moz-transition: all 0.25s linear;
+          -o-transition: all 0.25s linear;
+          -webkit-transition: all 0.25s linear;
+          transition: all 0.25s linear; }
+        @media (max-width: 37.5em) {
+          #container #mainContent #projectsGrid .projectGridItem:hover .overlay {
+            opacity: 0; } }
+        @media (min-width: 37.5em) {
+          #container #mainContent #projectsGrid .projectGridItem:hover .overlay {
+            opacity: 0; } }
+        @media (min-width: 64em) {
+          #container #mainContent #projectsGrid .projectGridItem:hover .overlay {
+            opacity: 0.6; } }
+        #container #mainContent #projectsGrid .projectGridItem .title {
+          position: absolute;
+          width: 100%;
+          font-size: 120%;
+          top: 10%;
+          opacity: 0;
+          text-align: center;
+          -moz-transition: all 0.25s linear;
+          -o-transition: all 0.25s linear;
+          -webkit-transition: all 0.25s linear;
+          transition: all 0.25s linear; }
+        #container #mainContent #projectsGrid .projectGridItem a {
+          display: block;
+          width: 100%;
+          height: 100%; }
+        @media (max-width: 37.5em) {
+          #container #mainContent #projectsGrid .projectGridItem:hover .title {
+            opacity: 0; } }
+        @media (min-width: 37.5em) {
+          #container #mainContent #projectsGrid .projectGridItem:hover .title {
+            opacity: 0; } }
+        @media (min-width: 64em) {
+          #container #mainContent #projectsGrid .projectGridItem:hover .title {
+            opacity: 1; } }
+        @media (max-width: 37.5em) {
+          #container #mainContent #projectsGrid .projectGridItem {
+            width: 50%; } }
+        @media (min-width: 37.5em) {
+          #container #mainContent #projectsGrid .projectGridItem {
+            width: 50%; } }
+        @media (min-width: 50em) {
+          #container #mainContent #projectsGrid .projectGridItem {
+            width: 25%; } }
+        #container #mainContent #projectsGrid .projectGridItem .bannerImage {
+          width: 100%; }
+    #container #mainContent #aboutImage {
+      display: block;
+      margin: auto;
+      -moz-transition: all 0.25s linear;
+      -o-transition: all 0.25s linear;
+      -webkit-transition: all 0.25s linear;
+      transition: all 0.25s linear; }
+      @media (min-width: 64em) {
+        #container #mainContent #aboutImage {
+          float: left; } }
+    #container #mainContent #aboutDescription {
+      padding-left: 5%;
+      padding-right: 5%;
+      text-align: justify;
+      color: #d1d1d1; }
+    #container #mainContent #socialPanel {
+      padding-left: 8%;
+      padding-right: 5%;
+      padding-top: 20px; }
+      @media (min-width: 64em) {
+        #container #mainContent #socialPanel {
+          clear: left; } }
+      #container #mainContent #socialPanel #socialTitle {
+        text-align: center;
+        padding-bottom: 20px; }
+      #container #mainContent #socialPanel .socialItem {
+        position: relative;
+        text-align: center;
+        display: inline-block;
+        width: 12.85%;
+        -moz-transition: all 0.25s linear;
+        -o-transition: all 0.25s linear;
+        -webkit-transition: all 0.25s linear;
+        transition: all 0.25s linear; }
+        #container #mainContent #socialPanel .socialItem img {
+          width: 70%; }
+        #container #mainContent #socialPanel .socialItem a:hover .socialImage {
+          opacity: 0; }
+        #container #mainContent #socialPanel .socialItem a:hover .socialImageHover {
+          opacity: 1; }
+        #container #mainContent #socialPanel .socialItem .socialImage {
+          position: absolute;
+          opacity: 1;
+          -moz-transition: all 0.6s linear;
+          -o-transition: all 0.6s linear;
+          -webkit-transition: all 0.6s linear;
+          transition: all 0.6s linear; }
+        #container #mainContent #socialPanel .socialItem .socialImageHover {
+          opacity: 0;
+          -moz-transition: all 0.6s linear;
+          -o-transition: all 0.6s linear;
+          -webkit-transition: all 0.6s linear;
+          transition: all 0.6s linear; }
+        @media (max-width: 37.5em) {
+          #container #mainContent #socialPanel .socialItem {
+            font-size: 0.5em; } }
+        @media (min-width: 37.5em) {
+          #container #mainContent #socialPanel .socialItem {
+            font-size: 0.9em; } }
+        @media (min-width: 64em) {
+          #container #mainContent #socialPanel .socialItem {
+            font-size: 0.9em; } }
+    #container #mainContent #project p {
+      padding-left: 5%;
+      padding-right: 5%;
+      margin-top: 0px;
+      margin-bottom: 20px;
+      text-align: justify; }
+    #container #mainContent #project.white {
+      background-color: #fff;
+      color: #000; }
+    #container #mainContent #project .indented {
+      padding-left: 30px;
+      padding-top: 20px; }
+    #container #mainContent #project .videoWrapper {
+      position: relative;
+      padding-bottom: 56.25%;
+      /* 16:9 */
+      padding-top: 25px;
+      height: 0; }
+    #container #mainContent #project .videoWrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; }
+    #container #mainContent #project.centeredText p {
+      text-align: center; }
+    #container #mainContent #shareContainer {
+      margin-top: 20px;
+      text-align: center; }
+      #container #mainContent #shareContainer p {
+        font-weight: bold; }
+    #container #mainContent #backToTop {
+      width: 100%;
+      text-align: center;
+      margin-top: 20px; }
+      #container #mainContent #backToTop #scrollTop {
+        text-decoration: underline; }
+    #container #mainContent .projectImage {
+      width: 100%;
+      display: inline-block;
+      margin-bottom: 20px;
+      pointer-events: none; }
+      #container #mainContent .projectImage img {
+        width: 100%; }
+    #container #mainContent #contact {
+      position: relative;
+      -moz-transition: all 0.25s linear;
+      -o-transition: all 0.25s linear;
+      -webkit-transition: all 0.25s linear;
+      transition: all 0.25s linear; }
+      #container #mainContent #contact p {
+        padding-left: 5%;
+        padding-right: 5%;
+        text-align: justify; }
+      #container #mainContent #contact #imageWrapper {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px; }
+        @media (max-width: 37.5em) {
+          #container #mainContent #contact #imageWrapper img {
+            width: 80%; } }
+        @media (min-width: 64em) {
+          #container #mainContent #contact #imageWrapper img {
+            width: 40%; } }
+      #container #mainContent #contact #emailLinkWrapper {
+        width: 100%;
+        text-align: center; }
+        #container #mainContent #contact #emailLinkWrapper #emailLink {
+          font-size: 150%; }
+
+#footer {
+  width: 90%;
+  text-align: center;
+  padding-left: 5%;
+  font-size: 8px;
+  margin-top: 10px;
+  padding-top: 10px;
+  margin-bottom: 10px; }
+  @media (min-width: 64em) {
+    #footer {
+      font-size: 11px; } }
+  #footer .footerLine {
+    width: 100%; }
+
+/********************
+ANIMATIONS
+*********************/
+.swap-enter {
+  opacity: 0.01;
+  transform: translateX(100em);
+  transition: all .5s ease-in; }
+
+.swap-enter.swap-enter-active {
+  opacity: 1;
+  transform: translateX(0); }
+
+.swap-leave {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 0s ease-in; }
+
+.swap-leave.swap-leave-active {
+  opacity: 0;
+  transform: translateX(-100em); }
+
+.swap-reverse-enter {
+  opacity: 0.01;
+  transform: translateX(-100em);
+  transition: all .5s ease-in; }
+
+.swap-reverse-enter.swap-reverse-enter-active {
+  opacity: 1;
+  transform: translateX(0); }
+
+.swap-reverse-leave {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 0s ease-in; }
+
+.swap-reverse-leave.swap-reverse-leave-active {
+  opacity: 0;
+  transform: translateX(100em); }
