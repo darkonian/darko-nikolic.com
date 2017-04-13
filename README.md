@@ -1,1 +1,1 @@
-# http-darko-nikolic.com-
+# darko-nikolic.com
