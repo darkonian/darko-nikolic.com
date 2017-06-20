@@ -1,5 +1,10 @@
 {
     "projects": [{
+        "id": "o",
+        "name": "O",
+        "bannerImg": "./media/banner/01.jpg",
+        "contentPage": "./pages/o.html"
+    }, {
         "id": "omina",
         "name": "Omina",
         "bannerImg": "./media/banner/02.jpg",
@@ -9,6 +14,11 @@
         "name": "Lifth",
         "bannerImg": "./media/banner/04.jpg",
         "contentPage": "./pages/lifth.html"
+    }, {
+        "id": "theory",
+        "name": "Theory",
+        "bannerImg": "./media/banner/08.jpg",
+        "contentPage": "./pages/theory.html"
     }, {
         "id": "dark-matter",
         "name": "Dark Matter",
@@ -20,21 +30,31 @@
         "bannerImg": "./media/banner/14.jpg",
         "contentPage": "./pages/origamy.html"
     }, {
-        "id": "escape-board",
-        "name": "escape board",
-        "bannerImg": "./media/banner/12.jpg",
-        "contentPage": "./pages/escape_board.html"
-    } , {
         "id": "dicibio",
         "name": "Dicibio",
         "bannerImg": "./media/banner/07.jpg",
         "contentPage": "./pages/dicibio.html"
     }, {
+        "id": "escape-board",
+        "name": "escape board",
+        "bannerImg": "./media/banner/12.jpg",
+        "contentPage": "./pages/escape_board.html"
+    }, {
         "id": "y",
         "name": "Y",
         "bannerImg": "./media/banner/05.jpg",
         "contentPage": "./pages/y.html"
-    },{
+    }, {
+        "id": "victor",
+        "name": "Victor",
+        "bannerImg": "./media/banner/10.jpg",
+        "contentPage": "./pages/victor.html"
+    }, {
+        "id": "wings-of-nike",
+        "name": "Wings of Nike",
+        "bannerImg": "./media/banner/11.jpg",
+        "contentPage": "./pages/wings_of_nike.html"
+    }, {
         "id": "curve",
         "name": "Curve",
         "bannerImg": "./media/banner/03.jpg",
@@ -45,21 +65,16 @@
         "bannerImg": "./media/banner/09.jpg",
         "contentPage": "./pages/8.html"
     }, {
-        "id": "wings-of-nike",
-        "name": "Wings of Nike",
-        "bannerImg": "./media/banner/11.jpg",
-        "contentPage": "./pages/wings_of_nike.html"
+        "id": "oxi-gen",
+        "name": "Oxi-gen",
+        "bannerImg": "./media/banner/13.jpg",
+        "contentPage": "./pages/oxi-gen.html"
     }, {
         "id": "serphon",
         "name": "Serphon",
         "bannerImg": "./media/banner/15.jpg",
         "contentPage": "./pages/serphon.html"
     }, {
-        "id": "oxi-gen",
-        "name": "Oxi-gen",
-        "bannerImg": "./media/banner/13.jpg",
-        "contentPage": "./pages/oxi-gen.html"
-    },{
         "id": "skyway",
         "name": "Skyway",
         "bannerImg": "./media/banner/16.jpg",
